@@ -1,3 +1,10 @@
 <h1 [class.gray]="h1Style">Home</h1>
 
 <button (click)="firstClick()">Click me</button>
+
+<ul *ngIf="users">
+    <li *ngFor="let user of users.data">
+        <img [src]="user.avatar">
+        <p>Prénom : {{ user.first_name }} | Nom : {{ user.last_name }}</p>
+    </li>
+</ul>
