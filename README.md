@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
+From https://coursetro.com/posts/code/171/Angular-7-Tutorial---Learn-Angular-7-by-Example
+
+Vidéo (50min): https://www.youtube.com/watch?v=5wtnKulcquA
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
