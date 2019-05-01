@@ -1,5 +1,7 @@
 # AngularExample
 
+Complete angular app with Docker multi stage build using Bootstrap.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
 From https://coursetro.com/posts/code/171/Angular-7-Tutorial---Learn-Angular-7-by-Example
