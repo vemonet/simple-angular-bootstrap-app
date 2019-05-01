@@ -17,8 +17,10 @@ docker build -t simple-angular-bootstrap-app .
 ## Docker run
 
 ```powershell
-docker run -it simple-angular-bootstrap-app
+docker run -it -p 8081:80 simple-angular-bootstrap-app
 ```
+
+Access at [http://localhost:8081](http://localhost:8081)
 
 ## Ng commands
 
@@ -45,4 +47,3 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ### Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
